@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Trade Gothic LT Bold';
+    src: url('./fonts/TradeGothic-LT-Bold-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #451400;
+    font-family: "Trade Gothic LT Bold";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d4cbc7;
+    font-size: 24px;
+    padding: 1rem 2rem;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+li a {
+    text-decoration: none;
+}
