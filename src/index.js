@@ -1,4 +1,12 @@
+import Stylesheet from "./style.css";
 import Icon from "./logos/logo.svg";
+
+function stylesheet() {
+    const stylesheetLink = document.createElement("link");
+    stylesheetLink.rel = "stylesheet";
+    stylesheetLink.href = Stylesheet;
+    return stylesheetLink;
+}
 
 function navBar() {
     const nav = document.createElement("nav");
@@ -33,4 +41,5 @@ function navBar() {
     return nav;
 }
 
+document.head.appendChild(stylesheet());
 document.body.appendChild(navBar());
