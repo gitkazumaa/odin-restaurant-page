@@ -12,6 +12,12 @@
     font-family: "MyFont";
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,5 +68,23 @@ li a {
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.socials-container {
+    display: flex;
+    padding: 2.5rem;
+    gap: 1rem;
 }
